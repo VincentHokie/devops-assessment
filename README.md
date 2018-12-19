@@ -1,6 +1,6 @@
 # DevOps Assessment #
 
-Tools utilized
+## Tools utilized ##
 
 - AWS
 
@@ -10,7 +10,7 @@ Tools utilized
 
  - [Open-Source repo](https://github.com/shekhargulati/python-flask-docker-hello-world) for the flask application. Thank you!
 
-Pros
+## Pros ##
 
 - Logging with AWS CloudWatch
 
@@ -19,7 +19,7 @@ Pros
 - Secure, VPC with tight security groups used
 
 
-Improvements that can be made
+## Improvements that can be made ##
 
 - using Route53 to allow user reach application through a user-friendly URL
 
