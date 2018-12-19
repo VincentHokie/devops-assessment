@@ -1,0 +1,49 @@
+[
+  {
+    "dnsSearchDomains": [],
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "${awslogs_group}",
+        "awslogs-region": "${awslogs_region}",
+        "awslogs-stream-prefix": "${web_awslogs_stream_prefix}"
+      }
+    },
+    "entryPoint": [],
+    "portMappings": [
+      {
+        "hostPort": 80,
+        "protocol": "tcp",
+        "containerPort": 80
+      }
+    ],
+    "command": [],
+    "linuxParameters": null,
+    "cpu": 0,
+    "environment": [],
+    "ulimits": null,
+    "dnsServers": [],
+    "mountPoints": [],
+    "workingDirectory": null,
+    "secrets": null,
+    "dockerSecurityOptions": [],
+    "memory": 512,
+    "memoryReservation": null,
+    "volumesFrom": [],
+    "image": "${docker_repository_url}/${image_name}:latest",
+    "disableNetworking": null,
+    "interactive": null,
+    "healthCheck": null,
+    "essential": true,
+    "links": [],
+    "hostname": null,
+    "extraHosts": null,
+    "pseudoTerminal": null,
+    "user": "root",
+    "readonlyRootFilesystem": false,
+    "dockerLabels": null,
+    "systemControls": null,
+    "privileged": false,
+    "name": "web"
+  }
+]
